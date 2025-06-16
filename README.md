@@ -13,6 +13,7 @@ This repository provides a comprehensive solution for the TEKSystems Control Dep
 
 ---
 
+
 ## Repository Structure
 
 ```
@@ -20,7 +21,8 @@ This repository provides a comprehensive solution for the TEKSystems Control Dep
 ├── docs/
 │   ├── cybersecurity-analysis.md
 │   ├── incident-response-plan.md
-│   └── security-architecture.md
+│   ├── security-architecture.md
+│   └── container-security.md
 ├── docker/
 │   ├── Dockerfile
 │   ├── docker-compose.yml
@@ -41,6 +43,7 @@ This repository provides a comprehensive solution for the TEKSystems Control Dep
 ├── src/
 ├── tests/
 ```
+
 
 ---
 
@@ -63,7 +66,7 @@ This repository provides a comprehensive solution for the TEKSystems Control Dep
    terraform plan
    terraform apply
    ```
-5. Use **GitLab CI pipeline** to deploy Lambda  
+5. Use **GitHub Actions CI pipeline** to deploy Lambda  
 
 ---
 
